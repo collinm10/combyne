@@ -1,0 +1,57 @@
+.WinSection-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    color: lightgray;
+}
+
+.WinHeader{
+    font-size: 5rem;
+    height: 5.2rem;
+}
+
+.WinSection-boxes-wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.first-box-row {
+    width: 80%;
+    height: 50vh;
+}
+
+.second-box-row{
+    width: 90%;
+    height: 30vh;
+}
+
+.box {
+    background: transparent;
+    border: 5px solid #FC5959;
+    border-radius: 15px;
+    width: 30vmin;
+    height: 20vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2ch;
+    font-size: 1.3rem;
+}
+
+.box.win {
+    border: 5px solid #59FC6F;
+}
+
+.box.lose {
+    border: 5px solid #707070;
+}
+
+.bottom-logo {
+    width:40vmin;
+    opacity: 5%;
+}
+
+.triangle {
+    z-index: 3;
+    transform: rotateZ('90deg');
+}

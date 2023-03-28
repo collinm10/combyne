@@ -1,0 +1,53 @@
+.JoinSection-wrapper {
+    width: 100%;
+    height: 100vh;
+    color: lightgray;
+}
+
+.join-header {
+    font-size: 5rem;
+    height: 5.2rem;
+}
+
+.basic-info {
+    width:70%;
+    height: 15%;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.teams-info {
+    width: 100%;
+    height: 60%;
+    font-size: 1.2rem;
+    color: #828282;
+}
+
+.region-info {
+    width: 30ch;
+}
+.region-name {
+    font-size: 1.8rem;
+    color: #FC5959;
+    padding: .3em;
+}
+.circle {
+    width: 1rem;
+    height: 1rem;
+}
+
+.team-info{
+    width: 30ch;
+    max-height: 3.125rem;
+    padding:.1em;
+}
+
+.team-logo{
+    max-height: 3.125rem;
+    width: 3.125rem;
+}
+
+.bottom-quip {
+    font-size: 1.3rem;
+    color: #FC5959;
+}
