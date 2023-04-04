@@ -1,57 +1,67 @@
 .WinSection-wrapper {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     color: lightgray;
 }
 
-.WinHeader{
+.WinHeader {
     font-size: 5rem;
     height: 5.2rem;
 }
 
-.WinSection-boxes-wrapper {
-    width: 100%;
-    min-height: 100vh;
-}
-
-.first-box-row {
-    width: 80%;
-    height: 50vh;
-}
-
-.second-box-row{
+.WinSection-week-grid {
+    margin: 5ch;
     width: 90%;
-    height: 30vh;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(2vh, auto);
 }
 
-.box {
-    background: transparent;
-    border: 5px solid #FC5959;
-    border-radius: 15px;
-    width: 30vmin;
-    height: 20vmin;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.week-header {
+    font-size: 2rem;
     text-align: center;
-    padding: 2ch;
-    font-size: 1.3rem;
 }
 
-.box.win {
-    border: 5px solid #59FC6F;
+.hr-line {
+    width: 100%;
+    border-width: .5ch;
 }
 
-.box.lose {
-    border: 5px solid #707070;
+.short-desc {
+    font-size: 1.1rem;
+    color: #FC5959;
+    margin-top: 5ch;
 }
 
-.bottom-logo {
-    width:40vmin;
-    opacity: 5%;
+.reward-item {
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
 }
 
-.triangle {
-    z-index: 3;
-    transform: rotateZ('90deg');
+.w1{
+    border-color: #FC5959;
+}
+
+.w2{
+    border-color: #FC5959;
+}
+
+.w3{
+    border-color: #FC5959;
+}
+
+.w4{
+    border-color: #FC5959;
+}
+
+.w5{
+    border-color: #FC5959;
 }

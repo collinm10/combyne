@@ -1,0 +1,41 @@
+.FAQ-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    color: lightgray;
+}
+
+.FAQHeader{
+    font-size: 5rem;
+    height: 5.2rem;
+    margin-bottom: 3rem;
+}
+
+.FAQ-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.FAQ-grid-wrapper{
+    width: 80%;
+}
+
+.question-wrapper{
+    justify-content: center;
+    text-align:center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding: 1em;
+    font-size: 1.4rem;
+    border-radius: 15px;
+    border: 3px solid #FF5959;
+}
+
+
+.answer-wrapper{
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: gray;
+}

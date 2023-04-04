@@ -11,11 +11,12 @@ import InfoTextBox from "./Components/InfoTextBox";
 import JoinSection from './Components/JoinSection';
 import WinSection from './Components/WinSection';
 import SurviveSection from './Components/SurviveSection';
+import FAQ from './Components/FAQ';
 
 function App() {
 
   const body1 = "Players can join any one of the 30 partnered VALORANT pro teams.";
-  const body2 = "Once you've created your account, all you have to do is win some games.";
+  const body2 = "Each round will last a week. Single Elimination.";
   const body3 = "The team with the most competitive wins at the end of the week advances.";
   
   const join_section_container = useRef();
@@ -44,12 +45,12 @@ function App() {
             <InfoTextBox header="Join." body={body1}/>
           </button>
           <Cross className="arrow" size="5rem" position="relative" zIndex={2} color="#828282" />
-          <button onClick={() => handleClick(win_section_container)} className="InfoTextBoxes-button">
-            <InfoTextBox header = "Win." body={body2} />
+          <button onClick={() => handleClick(survive_section_container)} className="InfoTextBoxes-button">
+            <InfoTextBox header = "Survive." body={body2} />
           </button>
           <Cross className="arrow" size="5rem" position="relative" zIndex={2} color="#828282" />
-          <button onClick={() => handleClick(survive_section_container)} className="InfoTextBoxes-button">
-            <InfoTextBox header = "Survive." body={body3}/>
+          <button onClick={() => handleClick(win_section_container)} className="InfoTextBoxes-button">
+            <InfoTextBox header = "Win." body={body3}/>
           </button>
         </div>
       </div>
@@ -62,16 +63,21 @@ function App() {
 
       <hr className="separator"/>
 
-      <div ref={win_section_container}> 
-        <WinSection/>
-      </div>
-
-      <hr className="separator"/>
-      
       <div ref={survive_section_container}> 
         <SurviveSection/>
       </div>
 
+      <hr className="separator"/>
+      
+      <div ref={win_section_container}> 
+        <WinSection />
+      </div>
+
+      <hr className="separator"/>
+      
+      <div>
+        <FAQ />
+      </div>
     </div>
   );
 }
