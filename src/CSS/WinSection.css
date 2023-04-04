@@ -1,0 +1,67 @@
+.WinSection-wrapper {
+    width: 100%;
+    height: 100vh;
+    color: lightgray;
+}
+
+.WinHeader {
+    font-size: 5rem;
+    height: 5.2rem;
+}
+
+.WinSection-week-grid {
+    margin: 5ch;
+    width: 90%;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(2vh, auto);
+}
+
+.week-header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hr-line {
+    width: 100%;
+    border-width: .5ch;
+}
+
+.short-desc {
+    font-size: 1.1rem;
+    color: #FC5959;
+    margin-top: 5ch;
+}
+
+.reward-item {
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+}
+
+.w1{
+    border-color: #FC5959;
+}
+
+.w2{
+    border-color: #FC5959;
+}
+
+.w3{
+    border-color: #FC5959;
+}
+
+.w4{
+    border-color: #FC5959;
+}
+
+.w5{
+    border-color: #FC5959;
+}
