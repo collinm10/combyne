@@ -40,7 +40,6 @@
 
 .InfoTextBox-text-wrapper{
     width: 100%;
-    
 }
 
 .InfoTextBox-header {
@@ -137,4 +136,51 @@
 
 .combyne-logo {
     width: 24rem;
+}
+
+.InfoTextBoxes-button {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 2;
+}
+
+.cross-shape{
+    margin: 0rem;
+}
+
+@media (orientation: portrait){
+    .combyne-logo {
+        width: 15rem;
+    }
+
+    .CombineTextBox{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .CombineTextBox-background-text{
+        font-size: 1.8rem;
+    }
+
+    .InfoTextBox {
+        font-size: 1.2rem;
+        height: 12rem;
+        width:  14rem;
+    }
+
+    .InfoTextBoxes-wrapper{
+        flex-direction: column;
+    }
+
+    .InfoTextBoxes-button{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .cross-shape{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }

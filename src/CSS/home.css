@@ -33,9 +33,3 @@
   padding: 1em;
   line-height: 1.5rem;
 }
-
-.InfoTextBoxes-button {
-  background-color: transparent;
-  border-color: transparent;
-  z-index: 2;
-}

@@ -44,11 +44,11 @@ function App() {
           <button onClick={() => join_section_container.current.scrollIntoView()} className="InfoTextBoxes-button">
             <InfoTextBox header="Join." body={body1}/>
           </button>
-          <Cross className="arrow" size="5rem" position="relative" zIndex={2} color="#828282" />
+          <Cross className="cross-shape" size="3rem" position="relative" zIndex={2} color="#828282" />
           <button onClick={() => handleClick(survive_section_container)} className="InfoTextBoxes-button">
             <InfoTextBox header = "Survive." body={body2} />
           </button>
-          <Cross className="arrow" size="5rem" position="relative" zIndex={2} color="#828282" />
+          <Cross className="cross-shape" size="3rem" position="relative" zIndex={2} color="#828282" />
           <button onClick={() => handleClick(win_section_container)} className="InfoTextBoxes-button">
             <InfoTextBox header = "Win." body={body3}/>
           </button>
