@@ -13,26 +13,20 @@ function JoinSection() {
                 </div>
             </div>
             <div className="basic-info d-flex justify-content-around align-items-center">
-                <div className="circle">
-                    
-                </div>
                 <div>
                     Anyone can  join any team.
                 </div>
                 <div className="circle">
-                    <Circle color="#FC5959" size={['1rem', '1rem', '1rem', '1rem']} zIndex={2}/>
+                    <Circle color="#FC5959" size={['1em', '1em', '1em', '1em']} zIndex={2}/>
                 </div>
                 <div>
                     Teams can have unlimited players.
                 </div>
                 <div className="circle">
-                    <Circle color="#FC5959" size={['1rem', '1rem', '1rem', '1rem']} zIndex={2}/>
+                    <Circle color="#FC5959" size={['1em', '1em', '1em', '1em']} zIndex={2}/>
                 </div>
                 <div>
                     You can only join one.
-                </div>
-                <div className="circle">
-                    
                 </div>
             </div>
             <div className="teams-info d-flex flex-row justify-content-around">

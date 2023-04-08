@@ -22,7 +22,7 @@ function App() {
   const join_section_container = useRef();
   const win_section_container = useRef();
   const survive_section_container = useRef();
-
+  const section_two_container = useRef();
 
 
   //Get reference to section two and observe it
@@ -32,11 +32,11 @@ function App() {
 
   return (
     <div className="home">
-      <CombineTextBox />
+      <CombineTextBox scrollTo={section_two_container}/>
       <hr className="separator"/>
       <div className = {"section-two d-flex flex-column justify-content-around align-items-center"}>  
         
-        <div className="section-two-background-image d-flex justify-content-center align-items-center">
+        <div ref={section_two_container} className="section-two-background-image d-flex justify-content-center align-items-center">
           <img src={bracket}></img>
         </div>  
             

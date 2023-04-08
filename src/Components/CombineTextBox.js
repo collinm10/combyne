@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import arrow from '../Arrow.svg';
 import combynelogo from '../combyne-logo.svg';
 
-function CombineTextBox() {
+function CombineTextBox(props) {
   //Create background text array
   const repeatMe = "YOUR WINS COUNT. ";
   let displayMe = [];
@@ -57,7 +57,7 @@ function CombineTextBox() {
             </div>
           </div>
           <div className="ArrowImage-wrapper d-flex flex-column justify-content-end align-items-center">
-            <button onClick={() => {window.scrollBy(0, window.outerHeight - 12)}} className="arrow-button"></button>
+            <button onClick={() => {props.scrollTo.current.scrollIntoView()}} className="arrow-button"></button>
             <img src={arrow} className="Arrow-svg" alt="Arrow" />
           </div>
       </div>
