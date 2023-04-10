@@ -1,6 +1,6 @@
 .WinSection-wrapper {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     color: lightgray;
 }
 
@@ -40,10 +40,11 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 12vh;
+    height: 14vh;
     font-size: 1.5rem;
     padding: 1em;
     text-align: center;
+    margin: 1rem;
 }
 
 .w1{
@@ -64,4 +65,20 @@
 
 .w5{
     border-color: #FC5959;
+}
+
+@media (orientation: portrait){
+    .WinHeader{
+        font-size: 3.5rem;
+        height: 6rem;
+    }
+
+    .WinSection-week-grid {
+        margin: 5ch;
+        width: 90%;
+        display: grid;
+        gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(2vh, auto);
+    }
 }

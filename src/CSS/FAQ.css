@@ -39,3 +39,14 @@
     text-align: center;
     color: gray;
 }
+
+@media (orientation: portrait) {
+    .FAQ-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .question-wrapper{
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+    }
+}
