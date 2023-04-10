@@ -81,4 +81,10 @@
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(2vh, auto);
     }
+
+    .short-desc {
+        font-size: 1.1rem;
+        color: #FC5959;
+        margin-top: 2ch;
+    }
 }
