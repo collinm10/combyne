@@ -17,6 +17,7 @@
     border: transparent;
     font-weight: bold;
     font-size: 1.3rem;
+    color: #000000;
 }
 
 .BackToTop{
@@ -24,6 +25,7 @@
     margin-right: 3rem;
     background: transparent;
     border: transparent;
+    color: #000000;
 }
 
 .CLogo{
