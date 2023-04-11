@@ -54,7 +54,7 @@ function WinSection() {
                         40 Radianite
                     </div>
                     <div className="reward-item w4">
-                        Make fun of all the Round 3 losers.
+                        Boasting rights.
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ function WinSection() {
                         40 Radianite
                     </div>
                     <div className="reward-item w5">
-                        500 VALORANT Points
+                        500 VP
                     </div>
                     <div className="reward-item w5">
                         Best fanbase in the world!

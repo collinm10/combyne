@@ -36,7 +36,7 @@ function FAQSection() {
                     <div className="question-wrapper">
                         Is there a way to link up with teammates?
                         <div className="answer-wrapper">
-                            We are working on implementing this exact feature. However, you can download our overlay that will display players' teams next to their card when loading into the match. 
+                            Currently in progress. You can download our overlay that will display players' teams when loading into a match. 
                         </div>
                     </div>
                     <div className="question-wrapper">

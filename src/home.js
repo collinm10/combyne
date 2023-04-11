@@ -4,6 +4,7 @@ import Canvas from './Canvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Cross, Polygon, Star } from 'react-awesome-shapes';
 import bracket from './Bracket.svg';
+import arrow from './Flipped-Arrow.svg';
 
 //Import components
 import CombineTextBox from './Components/CombineTextBox';
@@ -12,6 +13,7 @@ import JoinSection from './Components/JoinSection';
 import WinSection from './Components/WinSection';
 import SurviveSection from './Components/SurviveSection';
 import FAQ from './Components/FAQ';
+import Navbar from './Components/HomeNavbar';
 
 function App() {
 
@@ -34,6 +36,7 @@ function App() {
     <div className="home">
       <CombineTextBox scrollTo={section_two_container}/>
       <hr className="separator"/>
+      <Navbar />
       <div className = {"section-two d-flex flex-column justify-content-around align-items-center"}>  
         
         <div ref={section_two_container} className="section-two-background-image d-flex justify-content-center align-items-center">
@@ -56,7 +59,7 @@ function App() {
       </div>
 
       <hr className="separator"/>
-
+      
       <div ref={join_section_container}> 
         <JoinSection/>
       </div>
