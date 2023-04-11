@@ -13,6 +13,7 @@
 .FAQ-Grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(3vh, auto);
 }
 
 .FAQ-grid-wrapper{
@@ -21,7 +22,7 @@
 
 .question-wrapper{
     justify-content: center;
-    text-align:center;
+    text-align: center;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-top: 1.3rem;
@@ -40,6 +41,15 @@
     color: gray;
 }
 
+.start-date-label{
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.highlight-me{
+    color: #FF5959;
+}
+
 @media (orientation: portrait) {
     .FAQ-Grid{
         display: grid;
@@ -48,5 +58,11 @@
     .question-wrapper{
         margin-left: 1.8rem;
         margin-right: 1.8rem;
+    }
+
+    .start-date-label{
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
     }
 }

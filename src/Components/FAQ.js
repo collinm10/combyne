@@ -18,7 +18,7 @@ function FAQSection() {
                     <div className="question-wrapper">
                         When does the event start?
                         <div className="answer-wrapper">
-                            Round one of the tournament will start on April 13th.
+                            Round one of the tournament will start on May 29th.
                         </div>
                     </div>
                     <div className="question-wrapper">
@@ -46,6 +46,10 @@ function FAQSection() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="start-date-label">
+                Round 1. <span className="highlight-me">May 29th.</span> Join your team.
             </div>
         </div>
     );
