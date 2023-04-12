@@ -12,12 +12,8 @@ function HomeNavbar(props) {
         <Navbar fixed="top" bg="dark" variant="dark">
             <Container fluid className="nav-bar-container">
                 <Navbar.Brand style={{cursor: "pointer"}} onClick={() => {props.scrollTo.current.scrollIntoView()}}>
-                        <img src={CLogo} width="30rem"/>{' '}
-                        Combyne
+                        <img src={CLogo} width="40rem"/>{' '}
                 </Navbar.Brand>
-                <Nav className="ms-auto">
-                    <Nav.Link style={{cursor: "pointer"}} onClick={() => {props.scrollTo.current.scrollIntoView()}}>Back to Top</Nav.Link>
-                </Nav>
             </Container>   
         </Navbar>
     );

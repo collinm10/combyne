@@ -47,10 +47,6 @@ function FAQSection() {
                     </div>
                 </div>
             </div>
-
-            <div className="start-date-label">
-                Round 1. <span className="highlight-me">May 29th.</span> Join your team.
-            </div>
         </div>
     );
 }
