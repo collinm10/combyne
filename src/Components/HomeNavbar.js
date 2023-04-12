@@ -7,18 +7,19 @@ import Nav from 'react-bootstrap/Nav';
 import CLogo from '../logo192.png';
 
 function HomeNavbar(props) {
-    
+
     return(
-        <div className="Navbar">
-            <button className="NavButton">
-                <img src={CLogo} className="CLogo"></img>
-                Combyne
-            </button>
-            <button className="BackToTop">
-                Back to Top
-            </button>
-        </div>
-        
+        <Navbar fixed="top" bg="dark" variant="dark">
+            <Container fluid className="nav-bar-container">
+                <Navbar.Brand style={{cursor: "pointer"}} onClick={() => {props.scrollTo.current.scrollIntoView()}}>
+                        <img src={CLogo} width="30rem"/>{' '}
+                        Combyne
+                </Navbar.Brand>
+                <Nav className="ms-auto">
+                    <Nav.Link style={{cursor: "pointer"}} onClick={() => {props.scrollTo.current.scrollIntoView()}}>Back to Top</Nav.Link>
+                </Nav>
+            </Container>   
+        </Navbar>
     );
 }
 

@@ -21,11 +21,12 @@ function App() {
   const body2 = "Each round will last a week. Single Elimination.";
   const body3 = "The team with the most competitive wins at the end of the week advances.";
   
+  const start_section_container = useRef();
   const join_section_container = useRef();
   const win_section_container = useRef();
   const survive_section_container = useRef();
   const section_two_container = useRef();
-
+  
 
   //Get reference to section two and observe it
   useEffect(() => {
@@ -34,9 +35,11 @@ function App() {
 
   return (
     <div className="home">
-      <CombineTextBox scrollTo={section_two_container}/>
+      <div ref={start_section_container}>
+        <CombineTextBox  scrollTo={section_two_container}/>
+      </div>
       <hr className="separator"/>
-      <Navbar />
+      <Navbar scrollTo={start_section_container} />
       <div className = {"section-two d-flex flex-column justify-content-around align-items-center"}>  
         
         <div ref={section_two_container} className="section-two-background-image d-flex justify-content-center align-items-center">
