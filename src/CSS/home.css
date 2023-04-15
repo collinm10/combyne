@@ -82,14 +82,29 @@
   color: #FF5959;
 }
 
+.section2-arrow{
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (orientation: portrait){
   .general-description-wrapper{
-    max-width: 60%;
+    max-width: 90%;
     font-size: .9rem;
   }
 
   .general-description{
     margin-top: .8rem;
     padding: .5rem;
+  }
+
+  .section2-arrow{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
   }
 }

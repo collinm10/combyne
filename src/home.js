@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Cross, Polygon, Star } from 'react-awesome-shapes';
 import bracket from './Bracket.svg';
 import arrow from './Flipped-Arrow.svg';
+import bigArrow from './ArrowSVG.svg';
 
 //Import components
 import CombineTextBox from './Components/CombineTextBox';
@@ -51,8 +52,12 @@ function App() {
             What is Combyne?
           </div>
           <div className="general-description">
-            Combyne offers an exciting new format that integrates regular ranked games with a single elimination tournament. The rules are simple: each time a player emerges victorious in a comp game, their team's score increases by one, vying to beat the opposing team to advance to the next round.
+            Combyne offers an exciting new format that integrates regular ranked games with a single elimination tournament. The rules are simple: each time a player emerges victorious in a comp game, their team's score increases by one, vying to beat the opposing team's score to advance to the next round.
           </div>
+        </div>
+        
+        <div>
+          <img className="section2-arrow" src={bigArrow}></img>
         </div>
 
         <div className="InfoTextBoxes-wrapper d-flex justify-content-around align-items-center">
