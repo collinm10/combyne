@@ -57,8 +57,10 @@ function CombineTextBox(props) {
             </div>
           </div>
           <div className="ArrowImage-wrapper d-flex flex-column justify-content-end align-items-center">
-            <button onClick={() => {props.scrollTo.current.scrollIntoView()}} className="arrow-button"></button>
-            <img src={arrow} className="Arrow-svg" alt="Arrow" />
+            <button onClick={() => {props.scrollTo.current.scrollIntoView()}} className="arrow-button">
+              <img src={arrow} className="Arrow-svg" alt="Arrow" />
+            </button>
+            
           </div>
       </div>
 

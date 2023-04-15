@@ -45,8 +45,17 @@ function App() {
         <div ref={section_two_container} className="section-two-background-image d-flex justify-content-center align-items-center">
           <img src={bracket}></img>
         </div>  
-            
-        <div className="InfoTextBoxes-wrapper mt-5 mb-5 d-flex justify-content-around align-items-center">
+        
+        <div className="general-description-wrapper">
+          <div className="general-description-header h2">
+            What is Combyne?
+          </div>
+          <div className="general-description">
+            Combyne offers an exciting new format that integrates regular ranked games with a single elimination tournament. The rules are simple: each time a player emerges victorious in a comp game, their team's score increases by one, vying to beat the opposing team to advance to the next round.
+          </div>
+        </div>
+
+        <div className="InfoTextBoxes-wrapper d-flex justify-content-around align-items-center">
           <button onClick={() => join_section_container.current.scrollIntoView()} className="InfoTextBoxes-button">
             <InfoTextBox header="Join." body={body1}/>
           </button>

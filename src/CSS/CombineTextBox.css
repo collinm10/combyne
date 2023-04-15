@@ -128,9 +128,7 @@
     position: absolute;
     background: transparent;
     border: transparent;
-    height: 10vmin;
-    width: 20vmin;
-    bottom: 4vmin;
+    bottom: 6vmin;
     z-index: 2;
 }
 
@@ -182,5 +180,14 @@
     .cross-shape{
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .Arrow-svg{
+        height: 25vmin;
+        animation: arrow-animation 1.5s forwards infinite linear alternate;
+    }
+
+    .arrow-button {
+        bottom: 27vmin;
     }
 }

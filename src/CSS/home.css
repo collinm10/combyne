@@ -58,3 +58,38 @@
   padding: 1em;
   line-height: 1.5rem;
 }
+
+.general-description-wrapper{
+  max-width: 50%;
+  color: #828282;
+  text-align: center;
+  font-size: 1.25rem;
+  display:flex;
+  flex-direction: column;
+}
+
+.general-description{
+  color: #828282;
+  border: 3px solid #b9b9b9;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #1c1c1c;
+  z-index: 3;
+}
+
+.general-description-header{
+  color: #FF5959;
+}
+
+@media (orientation: portrait){
+  .general-description-wrapper{
+    max-width: 60%;
+    font-size: .9rem;
+  }
+
+  .general-description{
+    margin-top: .8rem;
+    padding: .5rem;
+  }
+}
